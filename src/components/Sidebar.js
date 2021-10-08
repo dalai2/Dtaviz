@@ -1,6 +1,6 @@
 import {StyledSidebar} from './styles/Sidebar.styled'
 
-export function Sidebar(){
+export default function Sidebar(){
     
 
     return(

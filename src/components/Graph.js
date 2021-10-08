@@ -1,5 +1,5 @@
 import Plotly from 'react-plotly.js'
-
+import { Flex } from './styles/Flex'
 
 
 
@@ -8,7 +8,11 @@ export default function Graph(){
   
   
   return(
-        <Plotly
+    <Flex>
+      <div style={{background:"red"}}>
+        Hola
+      </div>
+      <Plotly 
         data={[
           {
             x: [1, 2, 3],
@@ -21,5 +25,7 @@ export default function Graph(){
         ]}
         layout={ {width: 520, height: 540, title: 'A Fancy Plot'} }
       />
+    </Flex>
+
     )
 };

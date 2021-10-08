@@ -1,6 +1,9 @@
 import Graph from './components/Graph'
 import Header from './components/Header'
 import GlobalStyle from './components/styles/Global'
+
+
+
 function App() {
   return (
     <div className="App">
